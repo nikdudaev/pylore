@@ -1,0 +1,29 @@
+[project]
+name = "pylore"
+version = "0.1.0"
+description = "Python Library for Easy Exploratory Data Analysis"
+authors = [
+    {name = "Nik Dudaev",email = "nikolay.dudaev@icloud.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^8.2.3"
+
+[tool.poetry.group.tests]
+optional = true
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^8.3.5"
