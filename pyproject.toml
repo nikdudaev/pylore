@@ -1,4 +1,5 @@
 [project]
+
 name = "pylore"
 version = "0.1.0"
 description = "Python Library for Easy Exploratory Data Analysis"
@@ -7,7 +8,7 @@ authors = [
 ]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<4.0"
 dependencies = [
 ]
 
@@ -27,3 +28,10 @@ optional = true
 
 [tool.poetry.group.tests.dependencies]
 pytest = "^8.3.5"
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.14.1"
+
+[tool.taskipy.tasks]
+test = { cmd = "pytest", help = "runs all tests with pytest" }
+build-docs = { cmd = "sphinx-build -M html docs/source/ docs/build", help = "builds documentation in html" }
