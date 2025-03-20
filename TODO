@@ -3,3 +3,17 @@ TODO List
 - setup pytest
 - setup sphinx docs
 - learn more about poetry
+
+Resources
+https://www.nb-data.com/p/python-packages-for-automated-eda
+https://github.com/akanz1/klib/tree/main
+https://github.com/fbdesignpro/sweetviz/tree/master
+
+DEV
+https://docs.pytest.org/en/stable/getting-started.html
+https://www.sphinx-doc.org/en/master/tutorial/getting-started.html#setting-up-your-project-and-development-environment
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+https://testdriven.io/blog/python-project-workflow/
+https://github.com/taskipy/taskipy
+https://python-poetry.org/docs/managing-dependencies/
+https://medium.com/@noexec/creating-and-publishing-a-modern-python-package-e0b5bce9461d
