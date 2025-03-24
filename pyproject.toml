@@ -3,14 +3,11 @@
 name = "pylore"
 version = "0.1.0"
 description = "Python Library for Easy Exploratory Data Analysis"
-authors = [
-    {name = "Nik Dudaev",email = "nikolay.dudaev@icloud.com"}
-]
-license = {text = "MIT"}
+authors = [{ name = "Nik Dudaev", email = "nikolay.dudaev@proton.me" }]
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
-dependencies = [
-]
+dependencies = []
 
 
 [build-system]
@@ -31,6 +28,7 @@ pytest = "^8.3.5"
 
 [tool.poetry.group.dev.dependencies]
 taskipy = "^1.14.1"
+bump2version = "^1.0.1"
 
 [tool.taskipy.tasks]
 test = { cmd = "pytest", help = "runs all tests with pytest" }
